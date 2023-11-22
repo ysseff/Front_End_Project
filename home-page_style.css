@@ -27,11 +27,13 @@ header {
 .navmenu {
   display: flex;
 }
+.navmenu li {
+  margin-right: 35px;
+}
 .navmenu a {
   color: #1a1a1a;
   font-size: 18px;
   text-transform: capitalize;
-  padding: 10px 100px;
   font-weight: 400;
 }
 .navmenu a p {
@@ -108,12 +110,9 @@ section {
   border: 0;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
-  cursor: pointer;
-
-  margin-top: 60px;
-}
-.btn a {
   color: #088178;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
+  margin-top: 60px;
 }
