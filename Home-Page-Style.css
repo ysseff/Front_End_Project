@@ -286,14 +286,16 @@ footer {
 }
 footer .contact,
 .about,
-.account {
+.account,
+.install {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
 }
 footer .about,
-.account {
+.account,
+.install {
   margin-top: 85px;
 }
 footer .logo {
@@ -325,6 +327,13 @@ footer .follow i {
 footer .follow i:hover,
 footer a:hover {
   color: #088178;
+}
+footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 5px;
+}
+footer .install img {
+  margin: 10px 0 15px 0;
 }
 footer .copy-right {
   width: 100%;
