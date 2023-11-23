@@ -328,5 +328,5 @@ footer a:hover {
 }
 footer .copy-right {
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
 }
