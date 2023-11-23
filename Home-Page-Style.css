@@ -7,6 +7,21 @@
   list-style: none;
   text-decoration: none;
 }
+html ::-webkit-scrollbar {
+  width: 12px;
+  background-color: #0881793a;
+}
+html ::-webkit-scrollbar-track {
+  border: 1px solid #234143;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #088179cb;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar-thumb:hover {
+  background: #076e67;
+}
 header {
   position: fixed;
   width: 100%;
