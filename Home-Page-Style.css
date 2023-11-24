@@ -7,6 +7,7 @@
   list-style: none;
   text-decoration: none;
 }
+  /* Scrollbar */
 html ::-webkit-scrollbar {
   width: 12px;
   background-color: #0881793a;
@@ -22,6 +23,14 @@ html ::-webkit-scrollbar-thumb {
 html ::-webkit-scrollbar-thumb:hover {
   background: #076e67;
 }
+/* ---------------------------------------- */
+/* scroll to top page */
+#scroll-top {
+  visibility: hidden;
+  margin-top: -23px;
+}
+/* --------------------------------------------- */
+/* Header */
 header {
   position: fixed;
   width: 100%;
@@ -85,6 +94,7 @@ header {
   color: #1a1a1a;
   cursor: pointer;
 }
+/* ---------------------------------------------- */
 /* home page */
 section {
   padding: 5% 10%;
@@ -131,6 +141,7 @@ section {
   font-weight: 700;
   margin-top: 60px;
 }
+/* ---------------------------------------- */
 /* feature */
 #feature {
   padding: 40px 80px;
@@ -165,6 +176,7 @@ section {
   width: 100%;
   margin-bottom: 10px;
 }
+/* ---------------------------------------------- */
 /* product */
 .product {
   text-align: center;
@@ -205,6 +217,7 @@ section {
 .pro .des h5 {
   font-size: 16px;
   padding-top: 5px;
+  color: black;
 }
 .pro .des i {
   font-size: 14px;
@@ -236,6 +249,7 @@ section {
   padding: 20px;
   flex-wrap: wrap;
 }
+/* ------------------------------------------- */
 /* banner */
 
 #banner1 h4 {
@@ -285,6 +299,7 @@ section {
   background-position: center;
   margin: 25px 0 85px 0;
 }
+/* ---------------------------------------- */
 /* footer */
 footer {
   padding: 40px 80px 0 80px;
