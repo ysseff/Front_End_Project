@@ -4,7 +4,7 @@ var price = document.getElementById("price");
 
 smallImg[0].onclick = function function1(){
     mainImg.src = smallImg[0].src;
-    price.innerHTML = "78.00$";
+    price.innerHTML = "85.00$";
 }
 smallImg[1].onclick = function function2(){
     mainImg.src = smallImg[1].src;
@@ -12,7 +12,7 @@ smallImg[1].onclick = function function2(){
 }
 smallImg[2].onclick = function function3(){
     mainImg.src = smallImg[2].src;
-    price.innerHTML = "85.00$";
+    price.innerHTML = "78.00$";
 }
 smallImg[3].onclick = function function4(){
     mainImg.src = smallImg[3].src;
