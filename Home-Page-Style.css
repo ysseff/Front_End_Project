@@ -79,7 +79,8 @@ header {
   align-items: center;
 }
 .nav-icon i {
-  margin-right: 20px;
+  margin-right: 11px;
+  margin-left:8px;
   color: #1a1a1a;
   font-size: 25px;
   font-weight: 400;
@@ -90,6 +91,8 @@ header {
   transform: scale(1.2);
 }
 #menu-icon {
+  margin-right: 11px;
+  margin-left:8px;
   font-size: 30px;
   color: #1a1a1a;
   cursor: pointer;
