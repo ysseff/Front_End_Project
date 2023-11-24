@@ -13,6 +13,7 @@
   .page-header h2,.page-header p{
     color: #fff;
     font-style: italic;
+    font-size: 30px;
   }
   #pagination{
     text-align: center;
@@ -30,7 +31,7 @@
     font-weight: 600;
   
   }
-  #newsletter{
+  /* #newsletter{
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -79,7 +80,7 @@
     border-bottom-left-radius: 0;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-  }
+  } */
   /* -------------------- Single Product ---------------------- */
   #prodetails{
     display:flex;

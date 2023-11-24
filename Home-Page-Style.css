@@ -97,6 +97,9 @@ header {
   color: #1a1a1a;
   cursor: pointer;
 }
+.menu{
+  display: none;
+  }
 /* ---------------------------------------------- */
 /* home page */
 section {
