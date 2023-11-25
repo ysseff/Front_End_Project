@@ -7,7 +7,7 @@
   list-style: none;
   text-decoration: none;
 }
-  /* Scrollbar */
+/* Scrollbar */
 html ::-webkit-scrollbar {
   width: 12px;
   background-color: #0881793a;
@@ -80,7 +80,7 @@ header {
 }
 .nav-icon i {
   margin-right: 11px;
-  margin-left:8px;
+  margin-left: 8px;
   color: #1a1a1a;
   font-size: 25px;
   font-weight: 400;
@@ -92,14 +92,14 @@ header {
 }
 #menu-icon {
   margin-right: 11px;
-  margin-left:8px;
+  margin-left: 8px;
   font-size: 30px;
   color: #1a1a1a;
   cursor: pointer;
 }
-.menu{
+.menu {
   display: none;
-  }
+}
 /* ---------------------------------------------- */
 /* home page */
 section {
