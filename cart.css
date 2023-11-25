@@ -113,21 +113,6 @@
     color: #fff;
     font-size: 30px;
   }
-  #pagination{
-    text-align: center;
-  }
-  #pagination a{
-    text-decoration: none;
-    background-color: #088178;
-    padding: 15px 20px;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: 600;
-  }
-  #pagination a i{
-    font-size: 16px;
-    font-weight: 600;
-  }
   /* -------------------------table--------------------- */
 
   #cart table {
@@ -186,7 +171,51 @@
   #cart table tbody tr td{
     font-size:  16px;
   }
-
+  #cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #coupon{
+    width: 35%;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  #coupon h3, #subtotal h3{
+    padding-bottom: 15px;
+  }
+  #coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+  }
+  #coupon button, #subtotal button{
+    background-color: #088178;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 0;
+    font-weight: 600;
+  }
+  #subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+  }
+  #subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 15px;
+  }
   /* ------------------------footer---------------------- */
   footer {
     padding: 40px 80px 0 80px;
