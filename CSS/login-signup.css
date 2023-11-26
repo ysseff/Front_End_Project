@@ -8,13 +8,13 @@
     text-decoration: none;
 }
 body{
-    background: #f4f4f4;
+    background: #f1eeee;
 }
 .wrapper{
-     width: 500px;
-    /* height: 650px;  */
+
+    width: 500px; 
     padding: 2rem 1rem;
-    margin: 20px auto;
+    margin: 130px auto;
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
@@ -34,7 +34,9 @@ form input{
     outline: none;
     border: 1px solid #fff;
     padding: 12px 20px;
-    margin-bottom: 10px;
+
+    margin-bottom: 15px;
+
     border-radius: 20px;
     background-color: #e4e4e4;
     font-weight: 450;
