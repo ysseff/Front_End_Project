@@ -8,27 +8,20 @@
     text-decoration: none;
 }
 body{
-    width: 100%;
-    height: 100vh;
-    margin-top: 75px;
-    background-image: url(../img/banner-3.png);
-    background-position: center;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
+    background: #f4f4f4;
 }
 .wrapper{
-    width: 500px;
+     width: 500px;
+    /* height: 650px;  */
     padding: 2rem 1rem;
     margin: 20px auto;
-    background-color: #fffffff0;;
+    background-color: #fff;
     border-radius: 10px;
     text-align: center;
     display:flex;
     flex-direction:column ;
     justify-content:stretch ;
-    box-shadow: 5px 6px 35px #4148482e;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);
   
 }
 h1{
@@ -66,10 +59,10 @@ button:hover{
 input:focus{
     border: 1px solid rgb(192, 192, 192);
 }
-.terms{ 
+.terms{
     margin-top: 0.2rem;
 }
-.terms input{ 
+.terms input{
     height: 1em;
     width: 1em;
     vertical-align: middle;
@@ -97,7 +90,4 @@ input:focus{
 .recover a{
     color: #464647;
     font-weight: 450;
-}
-form input:focus{
-border :1px solid rgb(40, 39, 39);
 }
