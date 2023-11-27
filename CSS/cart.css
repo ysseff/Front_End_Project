@@ -49,6 +49,7 @@ header {
 }
 .navmenu {
   display: flex;
+  align-items: center;
 }
 .navmenu li {
   margin-right: 35px;
