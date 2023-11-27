@@ -8,14 +8,16 @@
     text-decoration: none;
 }
 body{
-    background: #f1eeee;
+    background-image: url(../img/background_login&signup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .wrapper{
 
     width: 500px; 
     padding: 2rem 1rem;
-    margin: 130px auto;
-    background-color: #fff;
+    margin: 25vh auto 0px;
+    background-color: #ffffff9c;
     border-radius: 10px;
     text-align: center;
     display:flex;
@@ -38,7 +40,7 @@ form input{
     margin-bottom: 15px;
 
     border-radius: 20px;
-    background-color: #e4e4e4;
+    background-color: #e4e4e47c;
     font-weight: 450;
 }
 button{
