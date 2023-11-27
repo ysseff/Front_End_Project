@@ -1,94 +1,216 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'Jost', sans-serif;
-    list-style: none;
-    text-decoration: none;
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Jost", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
-body{
-    background-image: url(../img/background_login&signup.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url(../img/slid-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.wrapper{
-    width: 500px; 
-    padding: 2rem 1rem;
-    margin: 25vh auto 0px;
-    background-color: #ffffff9c;
-    border-radius: 10px;
-    text-align: center;
-    display:flex;
-    flex-direction:column ;
-    justify-content:space-around ;
-    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);
-  
+.wrapper {
+  width: 500px;
+  padding: 2rem 1rem;
+  margin: 25vh auto 0px;
+  background-color: #ffffff9c;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);
 }
-h1{
-    font-size: 3rem;
-    color: #07001f;
-    margin-bottom: 2.2rem;
+h1 {
+  font-size: 3rem;
+  color: #07001f;
+  margin-bottom: 2.2rem;
 }
-form input{
-    width: 92%;
-    outline: none;
-    border: 1px solid #fff;
-    padding: 12px 20px;
-    margin-bottom: 15px;
-    border-radius: 20px;
-    background-color: #e4e4e47c;
-    font-weight: 450;
+form input {
+  width: 92%;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  background-color: #e4e4e47c;
+  font-weight: 450;
 }
-button{
-    font-size:  1rem;
-    margin-top: 1.8rem;
-    padding: 10px 0px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    width: 98%;
-    color: #fff;
-    cursor: pointer;
-    background: rgb(8,129,120);
-    transition: all .18s ease;
+button {
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 0px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 98%;
+  color: #fff;
+  cursor: pointer;
+  background: rgb(8, 129, 120);
+  transition: all 0.18s ease;
 }
-button:hover{
-    background: rgba(8,129,120, 0.877);
-    transform: scale(1.01);
+button:hover {
+  background: rgba(8, 129, 120, 0.877);
+  transform: scale(1.01);
 }
-input:focus{
-    border: 1px solid rgb(192, 192, 192);
+input:focus {
+  border: 1px solid rgb(192, 192, 192);
 }
-.terms{
-    margin-top: 0.2rem;
+.terms {
+  margin-top: 0.2rem;
 }
-.terms input{
-    height: 1em;
-    width: 1em;
-    vertical-align: middle;
-    cursor: pointer;
+.terms input {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  cursor: pointer;
 }
-.terms label{
-    font-size: 0.7rem;
+.terms label {
+  font-size: 0.7rem;
 }
-.terms a{
-    color: rgb(17, 107, 143);
+.terms a {
+  color: rgb(17, 107, 143);
 }
-.member{
-    font-size: 0.8rem;
-    margin-top: 1.4rem;
-    color: #636363;
+.member {
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+  color: #636363;
 }
-.member a{
-    color: rgb(17, 107, 143);
+.member a {
+  color: rgb(17, 107, 143);
 }
-.recover{
-    text-align: right;
-    font-size: 0.7rem;
-    margin: 0.3rem 1.4rem 0 0;
+.recover {
+  text-align: right;
+  font-size: 0.7rem;
+  margin: 0.3rem 1.4rem 0 0;
 }
-.recover a{
-    color: #464647;
-    font-weight: 450;
+.recover a {
+  color: #464647;
+  font-weight: 450;
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Jost", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
+body {
+  background-image: url(../img/slid-1.jpg);
+  background-size: cover;
+  align-items: center;
+}
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 550px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh auto 0 10%;
+}
+.wrapper .form-box {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.form-box h2 {
+  font-size: 2em;
+  color: #000;
+  text-align: center;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #000;
+  margin: 30px 0;
+}
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: -5px;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #000;
+  font-weight: 500;
+  padding: 0 35px 0 5px;
+}
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #000;
+  line-height: 57px;
+}
+.remember-forgot {
+  font-size: 0.9em;
+  color: #000;
+  font-weight: 500;
+  margin: -15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.remember-forgot label input {
+  color: #000;
+  margin-right: 3px;
+}
+.remember-forgot a {
+  color: #000;
+}
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+.btn {
+  width: 100%;
+  height: 45px;
+  background-color: #088178;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+}
+.login-register {
+  font-size: 0.9em;
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+  margin: 25px 0 10px;
+}
+.login-register p a {
+  color: #088178;
+  text-decoration: none;
+  font-weight: 500;
+}
+.login-register p a:hover {
+  text-decoration: underline;
+} */
