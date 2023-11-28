@@ -1,0 +1,128 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  scroll-behavior: smooth; 
+  font-family: "Jost", sans-serif; 
+  list-style: none; 
+  text-decoration: none; 
+} 
+body { 
+  background-image: url(../img/slid-1.jpg); 
+  background-size: cover; 
+  align-items: center; 
+} 
+.wrapper{ 
+  position: relative; 
+  width: 400px; 
+  height: 550px; 
+  background: rgba(241, 237, 237, 0.615); 
+  border: 2px solid #0000002d; 
+  border-radius: 20px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: top;
+  padding-top: 25px; 
+  margin: 15vh auto 0 10%; 
+} 
+.form-box{ 
+  width: 100%; 
+  padding: 40px; 
+  display: flex; 
+  flex-direction: column; 
+} 
+.form-box h2{ 
+  font-size: 2em; 
+  color: #2b2b2b; 
+  text-align: center; 
+} 
+.input-box{ 
+  position: relative; 
+  width: 100%; 
+  height: 50px; 
+  border-bottom: 2px solid #2b2b2b; 
+  margin: 30px 0; 
+} 
+.input-box label{ 
+  position: absolute; 
+  top: 50%; 
+  left: 5px; 
+  transform: translateY(-50%); 
+  font-size: 16px; 
+  color: #2b2b2b; 
+  font-weight: 500 ; 
+  pointer-events: none; 
+  transition: 0.5s; 
+} 
+.input-box input:focus ~ label,  
+.input-box input:valid ~ label{ 
+  top: -5px; 
+} 
+.input-box input{
+  width: 100%; 
+  height: 100%; 
+  background: transparent; 
+  border: none; 
+  outline: none; 
+  font-size: 1em; 
+  color: #2b2b2b; 
+  font-weight: 500;  
+} 
+.input-box .icon{
+  position: absolute; 
+  right: 8px; 
+  font-size: 1.2em; 
+  color:#2b2b2b; 
+  line-height: 57px; 
+} 
+.remember-forgot{
+  font-size: 0.9em; 
+  color: #2b2b2b; 
+  font-weight: 500; 
+  margin: -15px 0 15px; 
+  display: flex; 
+  justify-content: space-between; 
+} 
+.remember-forgot label input { 
+  color: #2b2b2b;  
+  margin-right: 3px; 
+} 
+.remember-forgot a{
+  color: #2b2b2b; 
+} 
+.remember-forgot a:hover{
+  text-decoration: underline; 
+} 
+.btn{
+  width: 100%; 
+  height: 45px; 
+  background-color: #088178; 
+  border: none; 
+  outline: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 1em; 
+  color: #fff; 
+  font-weight: 500; 
+  transition: all .35s ease;
+  margin-top: 10px
+} 
+.btn:hover{
+  background: rgba(8,129,120, 0.877);
+  transform: scale(1.01);
+}
+.member{
+  font-size: 0.9em; 
+  color: #2b2b2b; 
+  text-align:  center; 
+  font-weight: 500; 
+  margin: 25px 0 10px
+} 
+.member p a { 
+  color: #088178; 
+  text-decoration: none; 
+  font-weight: 500; 
+} 
+.member p a:hover { 
+  text-decoration: underline; 
+} 
