@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: space-between;
 }
+#banner1 {
+    background-image: url("../img/banner/b20.jpg");
+}
 
 #contact-details .details {
     width: 40%;
@@ -11,7 +14,7 @@
 
 #contact-details .details span,
 #form-details form span {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 #contact-details .details h2,
@@ -22,7 +25,7 @@
 }
 
 #contact-details .details h3 {
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom: 15px;
 }
 
@@ -34,20 +37,20 @@
 }
 
 #contact-details .details ul li i {
-    font-size: 14px;
+    font-size: 18px;
     padding-right: 22px;
 }
 
 #contact-details .details ul li p {
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* form-details */
 #form-details {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 100px 30px;
     padding: 80px;
     border: 1px solid #e1e1e1;
 }
@@ -66,15 +69,22 @@
     outline: none;
     margin-bottom: 20px;
     border: 1px solid #e1e1e1;
+    font-size: 18px;
 }
 
 #form-details form button {
+    width: 200px;
     background-color: #088178;
     color: #fff;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 20px;
     border: 0;
+    border-radius: 5px;
     font-weight: 600;
+}
+#form-details form button:hover {
+    background-color: #08aca1;
+    transition: all 0.3s ease;
 }
 
 #form-details .people div {
@@ -91,13 +101,13 @@
 
 #form-details .people div p {
     margin: 0;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 25px;
 }
 
 #form-details .people div p span {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #000;
 }
