@@ -93,11 +93,52 @@ header {
   transform: scale(1.2);
 }
 #menu-icon {
-  margin-right: 11px;
-  margin-left: 8px;
-  font-size: 30px;
-  color: #1a1a1a;
-  cursor: pointer;
+  position: relative;
+}
+.sub-menu-icon {
+  position: absolute;
+  top: 100%;
+  left: -98px;
+  width: 220px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.sub-menu-icon.open-menu {
+  max-height: 400px;
+}
+.sub-menu-icon.open-menu #icon {
+  color: #088178;
+  transform: scale(1.2);
+}
+
+.sub-menu-content {
+  background-color: #e4e4e4;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.sub-menu-content h4 {
+  font-weight: 550;
+}
+.sub-menu-content hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  margin:10px 0 5px;
+}
+.sub-menu-content a {
+  display: block;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.sub-menu-content a:hover {
+  color: #088178;
+  font-weight: 600;
 }
 /* -----------------------banner----------------------- */
 .page-header {
@@ -133,6 +174,13 @@ header {
   width: 100px;
   text-align: center;
 }
+#cart table td:nth-child(1) i{
+  transition: all .1s ease;
+  color: rgb(223, 0, 0);
+}
+#cart table td:nth-child(1) i:hover{
+  transform: scale(1.1);
+}
 #cart table td:nth-child(2) {
   width: 150px;
   text-align: center;
@@ -148,10 +196,14 @@ header {
 #cart table td:nth-child(5) {
   width: 150px;
   text-align: center;
+  
 }
-#cart table td:nth-child(5) input {
+#cart table td:nth-child(5) input{
   width: 70px;
   padding: 10px 5px 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #088178;
 }
 #cart table td:nth-child(6) {
   width: 150px;
@@ -195,6 +247,9 @@ header {
   margin-right: 10px;
   border: 1px solid #e2e9e1;
 }
+#coupon input:focus{
+  outline: #088178;
+}
 #coupon button,
 #subtotal button {
   background-color: #088178;
@@ -203,6 +258,14 @@ header {
   font-size: 14px;
   border: 0;
   font-weight: 600;
+  cursor: pointer;
+  transition: all .1s ease;
+  border-radius: 5px;
+}
+#coupon button:hover,
+#subtotal button:hover {
+  background: rgba(8,129,120, 0.877);
+  transform: scale(1.01);
 }
 #subtotal {
   width: 50%;

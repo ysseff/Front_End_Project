@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LABEL</title>
-    <link rel="stylesheet" href="../CSS/login-signup.css" />
+    <link rel="stylesheet" href="../CSS/signup.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,23 +16,31 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
   </head>
-  <body>
-    <div class="wrapper">
-        <h1>Sign Up</h1>
-        <form action="#" method="post">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Name">
-            <input type="password" placeholder="Passowrd">
-            <input type="password" placeholder="Re-Enter Password">
-        </form>
-        <div class="terms">
-            <input type="checkbox" id="checkbox">
-            <label for="checkbox">agree to these <a href="#">Terms & Conditions</a></label>
-        </div>
-        <button>Sign Up</button>
-        <div class="member">
-            Already a member <a href="login.html">Login here</a>
-        </div>
+  <div class="wrapper">
+    <div class="form-box">
+      <h2>Sign Up</h2>
+      <div class="input-box">
+        <span class="icon"><i class="bx bxs-user"></i></span>
+        <input type="text" required="required" id="name"> 
+        <label for="name">Username</label>
+      </div>
+      <div class="input-box">
+        <span class="icon"><i class="bx bxs-envelope"></i></span>
+        <input type="email" required="required" id="email"> 
+        <label for="email">Email</label>
+      </div>
+      <div class="input-box">
+        <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+        <input type="password" required="required" id="password">
+        <label for="password">Password</label>
+      </div>
+      <button type="submit" class="btn">Sign Up</button>
+      <div class="member">
+        <p>
+          Already have an account ? <a href="login.html">Login</a>
+        </p>
+      </div>
     </div>
+  </div>
   </body>
 </html>

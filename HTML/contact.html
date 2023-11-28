@@ -10,16 +10,21 @@
     <link rel="stylesheet" href="../CSS/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
   </head>
 
   <body>
     <p id="scroll-top">.</p>
     <!--header-->
     <header>
-      <a href="#scroll-top" class="logo"
+      <a href="Home-Page.html" class="logo"
         ><img src="../img\logo-removebg.png" alt=""
       /></a>
       <ul class="navmenu">
@@ -43,15 +48,17 @@
         <a href="#"><i class="bx bx-search"></i></a>
         <a href="login.html"><i class="bx bx-user"></i></a>
         <a href="cart.html"><i class="bx bx-cart"></i></a>
-        <div class="bx bx-menu" id="menu-icon">
-          <select class="menu" id="menu">
-            <option><a href="#">Men's clothing</a></option>
-            <option><a href="#">Clothes for women</a></option>
-            <option><a href="#">Children's clothing</a></option>
-            <option><a href="#">Men Shoes</a></option>
-            <option><a href="#">Women's shoes</a></option>
-            <option><a href="#">kids shoes</a></option>
-          </select>
+        <div id="menu-icon" onclick="dropDownMenu()">
+          <i id="icon" class="bx bx-menu"></i>
+          <div class="sub-menu-icon" id="sub-menu">
+            <div class="sub-menu-content">
+              <h4>Select category</h4>
+              <hr />
+              <a href="#">Men's clothing</a>
+              <a href="#">Women's clothing</a>
+              <a href="#">Children's clothing</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -89,7 +96,7 @@
         <h6>F24/7 Support</h6>
       </div>
     </section>
- 
+
     <!--contact-details-->
     <section id="contact-details" class="section-p1">
       <div class="details">
@@ -99,19 +106,19 @@
         <div>
           <ul>
             <li>
-              <i class='bx bx-map-alt'></i>
+              <i class="bx bx-map-alt"></i>
               <p>Elgomhoria street next to amon school portfoad, portsaid</p>
             </li>
             <li>
-              <i class='bx bx-envelope'></i>
-              <p>contact@example.com </p>
+              <i class="bx bx-envelope"></i>
+              <p>contact@example.com</p>
             </li>
             <li>
-              <i class='bx bx-phone'></i>
-              <p>contact@example.com </p>
+              <i class="bx bx-phone"></i>
+              <p>contact@example.com</p>
             </li>
             <li>
-              <i class='bx bx-time-five' ></i>
+              <i class="bx bx-time-five"></i>
               <p>Monday to Saturday: 9am to 16pm</p>
             </li>
           </ul>
@@ -119,33 +126,57 @@
       </div>
 
       <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2211.721448842198!2d32.32166906221745!3d31.
-        250061238316853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f99db0b5a1976d%3A0x7ac039dbce4e556b!2z2YXYr9in2LHYs
-        yDZh9mK2KbYqSDZgtmG2KfYqSDYp9mE2LPZiNmK2LMg2KfZhNiu2KfYtdipIC0g2KfZhdmI2YY!5e0!3m2!1sar!2seg!4v1701110445803!5m2!1sar!2seg"
-        width="500px" height="340" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1206.0655154542626!2d32.322191761455386!3d31.240991937988973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f99dc89d7f640b%3A0xc209929b0fabe1dc!2sJEM&#39;S!5e0!3m2!1sar!2seg!4v1701188530072!5m2!1sar!2seg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </section>
+    <section id="banner1"></section>
 
     <!--form-details-->
     <section id="form-details">
       <form>
         <span>LEAVE A MESSAGE</span>
         <h2>We love to hear from you</h2>
-        <input type="text" placeholder="Your Name">
-        <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="Subject">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="text" placeholder="Your Name" />
+        <input type="text" placeholder="E-mail" />
+        <input type="text" placeholder="Subject" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
         <button class="normal">Submit</button>
       </form>
 
       <div class="people">
         <div>
-          <img src="../img/people/1.png" alt="">
-          <p><span>Ali Abdelwhab </span> Senior web developer <br> Phone: +20 123 000 7788 <br> Email: contact@example.com</p>
-          <img src="../img/people/2.png" alt="">
-          <p><span>Abdo tera </span> Senior web developer <br> Phone: +20 123 000 7788 <br> Email: contact@example.com</p>
-          <img src="../img/people/3.png" alt="">
-          <p><span>Mona Ahmed </span> Senior web developer <br> Phone: +20 123 000 7788 <br> Email: contact@example.com</p>
+          <img src="../img/people/1.png" alt="" />
+          <p>
+            <span>Ali Abdelwhab </span> Senior Marketing Manager <br />
+            Phone: +20 123 000 7788 <br />
+            Email: contact@example.com
+          </p>
+          <img src="../img/people/2.png" alt="" />
+          <p>
+            <span>Abdo tera </span> Senior Marketing Manager <br />
+            Phone: +20 123 000 7788 <br />
+            Email: contact@example.com
+          </p>
+          <img src="../img/people/3.png" alt="" />
+          <p>
+            <span>Mona Ahmed </span> Senior Marketing Manager <br />
+            Phone: +20 123 000 7788 <br />
+            Email: contact@example.com
+          </p>
         </div>
       </div>
     </section>
@@ -176,7 +207,7 @@
         <a href="#">Delivery Information</a>
         <a href="#">Privacy Policy</a>
         <a href="#">Terms & Conditions</a>
-        <a href="#">Contact US</a>
+        <a href="contact.html">Contact US</a>
       </div>
       <div class="account">
         <h4>My Account</h4>
@@ -197,5 +228,6 @@
         <p>&copy; 2023, HTML CSS JAVASCRIPT ECOMMERCE</p>
       </div>
     </footer>
+    <script src="../JAVASCRIPT/Drop-down-menu.js"></script>
   </body>
 </html>

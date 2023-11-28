@@ -43,15 +43,17 @@
         <a href="#"><i class="bx bx-search"></i></a>
         <a href="login.html"><i class="bx bx-user"></i></a>
         <a href="cart.html"><i class="bx bx-cart"></i></a>
-        <div class="bx bx-menu" id="menu-icon">
-          <select class="menu" id="menu">
-            <option><a href="#">Men's clothing</a></option>
-            <option><a href="#">Clothes for women</a></option>
-            <option><a href="#">Children's clothing</a></option>
-            <option><a href="#">Men Shoes</a></option>
-            <option><a href="#">Women's shoes</a></option>
-            <option><a href="#">kids shoes</a></option>
-          </select>
+        <div id="menu-icon" onclick="dropDownMenu()">
+          <i id="icon" class="bx bx-menu"></i>
+          <div class="sub-menu-icon" id="sub-menu">
+            <div class="sub-menu-content">
+              <h4>Select category</h4>
+              <hr>
+              <a href="#">Men's clothing</a>
+              <a href="#">Women's clothing</a>
+              <a href="#">Children's clothing</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -397,7 +399,7 @@
         <a href="#">Delivery Information</a>
         <a href="#">Privacy Policy</a>
         <a href="#">Terms & Conditions</a>
-        <a href="#">Contact US</a>
+        <a href="contact.html">Contact US</a>
       </div>
       <div class="account">
         <h4>My Account</h4>
@@ -418,5 +420,6 @@
         <p>&copy; 2023, HTML CSS JAVASCRIPT ECOMMERCE</p>
       </div>
     </footer>
+    <script src="../JAVASCRIPT/Drop-down-menu.js"></script>
   </body>
 </html>

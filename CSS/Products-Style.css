@@ -85,11 +85,53 @@ header {
   transform: scale(1.2);
 }
 #menu-icon {
-  margin-right: 11px;
-  margin-left: 8px;
-  font-size: 30px;
-  color: #1a1a1a;
-  cursor: pointer;
+  position: relative;
+}
+.sub-menu-icon {
+  position: absolute;
+  top: 100%;
+  left: -98px;
+  width: 220px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.sub-menu-icon.open-menu {
+  max-height: 400px;
+}
+.sub-menu-icon.open-menu #icon {
+  color: #088178;
+  transform: scale(1.2);
+}
+
+.sub-menu-content {
+  background-color: #e4e4e4;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.sub-menu-content h4 {
+  font-weight: 550;
+  margin: 0;
+}
+.sub-menu-content hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  margin:10px 0 5px;
+}
+.sub-menu-content a {
+  display: block;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.sub-menu-content a:hover {
+  color: #088178;
+  font-weight: 600;
 }
 /* ------------------------------------------------ */
 /* Product pages */
