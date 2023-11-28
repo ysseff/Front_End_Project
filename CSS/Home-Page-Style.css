@@ -91,13 +91,7 @@ header {
   color: #088178;
   transform: scale(1.2);
 }
-/* #menu-icon {
-  margin-right: 11px;
-  margin-left: 8px;
-  font-size: 30px;
-  color: #1a1a1a;
-  cursor: pointer;
-} */
+
 #menu-icon {
   position: relative;
 }
@@ -113,8 +107,13 @@ header {
 .sub-menu-icon.open-menu {
   max-height: 400px;
 }
+.sub-menu-icon.open-menu #icon {
+  color: #088178;
+  transform: scale(1.2);
+}
+
 .sub-menu-content {
-  background-color: rgb(233, 233, 233);
+  background-color: #e4e4e4;
   padding: 20px;
   margin-top: 30px;
   text-align: center;
