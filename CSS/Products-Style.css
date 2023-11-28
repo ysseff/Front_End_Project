@@ -113,6 +113,7 @@ header {
 }
 .sub-menu-content h4 {
   font-weight: 550;
+  margin: 0;
 }
 .sub-menu-content hr {
   border: 0;
