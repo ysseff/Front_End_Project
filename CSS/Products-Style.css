@@ -261,6 +261,7 @@ select:focus {
 .pro .des h5 {
   font-size: 16px;
   padding-top: 5px;
+  color: black;
 }
 .pro .des i {
   font-size: 14px;
