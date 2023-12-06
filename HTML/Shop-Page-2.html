@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LABEL</title>
     <link rel="stylesheet" href="../CSS/Home-Page-Style.css" />
+    <link rel="stylesheet" href="../CSS/Shopstyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,55 +16,57 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    
   </head>
   <body>
-    <p id="scroll-top">.</p>
     <header>
-      <a href="#scroll-top" class="logo"
-        ><img src="../img\logo-removebg.png" alt=""
-      /></a>
-      <ul class="navmenu">
-        <li>
-          <a href="Home-Page.html"><p class="active">home</p></a>
-        </li>
-        <li>
-          <a href="Shop-page.html"><p>shop</p></a>
-        </li>
-        <li>
-          <a href="Blog.html"><p>blog</p></a>
-        </li>
-        <li>
-          <a href="about.html"><p>about</p></a>
-        </li>
-        <li>
-          <a href="contact.html"><p>contact</p></a>
-        </li>
-      </ul>
-      <div class="nav-icon">
-        <a href="#"><i class="bx bx-search"></i></a>
-        <a href="login.html"><i class="bx bx-user"></i></a>
-        <a href="cart.html"><i class="bx bx-cart"></i></a>
-        <div id="menu-icon" onclick="dropDownMenu()">
-          <i id="icon" class="bx bx-menu"></i>
-          <div class="sub-menu-icon" id="sub-menu">
-            <div class="sub-menu-content">
-              <h4>Select category</h4>
-              <hr />
-              <a href="Shop-page.html">Men's clothing</a>
-              <a href="Shop2-Page.html">Women's clothing</a>
-              <a href="Shop3-Page.html">Children's clothing</a>
+        <a href="#scroll-top" class="logo"
+          ><img src="../img\logo-removebg.png" alt=""
+        /></a>
+        <ul class="navmenu">
+          <li>
+            <a href="Home-Page.html"><p>home</p></a>
+          </li>
+          <li>
+            <a href="Shop-page.html"><p  class="active">shop</p></a>
+          </li>
+          <li>
+            <a href="Blog.html"><p>blog</p></a>
+          </li>
+          <li>
+            <a href="about.html"><p>about</p></a>
+          </li>
+          <li>
+            <a href="contact.html"><p>contact</p></a>
+          </li>
+        </ul>
+        <div class="nav-icon">
+          <a href="#"><i class="bx bx-search"></i></a>
+          <a href="login.html"><i class="bx bx-user"></i></a>
+          <a href="cart.html"><i class="bx bx-cart"></i></a>
+          <div id="menu-icon" onclick="dropDownMenu()">
+            <i id="icon" class="bx bx-menu"></i>
+            <div class="sub-menu-icon" id="sub-menu">
+              <div class="sub-menu-content">
+                <h4>Select category</h4>
+                <hr />
+                <a href="Shop-page.html">Men's clothing</a>
+                <a href="Shop2-Page.html">Women's clothing</a>
+                <a href="Shop3-Page.html">Children's clothing</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <section class="main-body">
-      <div class="text">
-        <h4>Summer Collection</h4>
-        <h1>New Summer Collection 2023</h1>
-        <p>There's Nothing like Trend</p>
-        <a href="Shop-page.html"><button class="btn">Shop Now</button></a>
-      </div>
+        <script src="../JAVASCRIPT/Drop-down-menu.js"></script>
+      </header>
+    <section class="page-header">
+      <h2>#StayHome</h2>
+      <p>Save more with coupons & up to 90% off!</p>
     </section>
     <section id="feature">
       <div class="fast-fe">
@@ -91,121 +94,12 @@
         <h6>F24/7 Support</h6>
       </div>
     </section>
-    <section class="product">
-      <h2>Featured Products</h2>
-      <p>Summer Collection New Design</p>
+    <section class="product1" class="section-p1">
       <div class="pro-container">
-        <div class="pro">
-          <a href="Product_1.html">
-            <img src="../img/product/f1.jpg" alt="" />
-            <div class="des">
-              <span>LACOSTE</span>
-              <h5>Cartoon Astronaut Shirts</h5>
-              <div class="star">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star-half"></i>
-              </div>
-              <h4>$78</h4>
-            </div>
-          </a>
-          <a href="#" class="cart"><i class="bx bx-cart"></i></a>
-          </div>
-        <div class="pro">
-          <a href="Product_2.html">
-            <img src="../img/product/f2.jpg" alt="" />
-            <div class="des">
-              <span>LACOSTE</span>
-              <h5>Printed Shirts</h5>
-              <div class="star">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star-half"></i>
-              </div>
-              <h4>$80</h4>
-              </div>
-          </a>
-          <a href="#" class="cart"><i class="bx bx-cart"></i></a>
-        </div>
-        <div class="pro">
-          <a href="Product_3.html">
-            <img src="../img/product/f3.jpg" alt="" />
-            <div class="des">
-              <span>PRADA</span>
-              <h5>Shirts</h5>
-              <div class="star">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star-half"></i>
-              </div>
-              <h4>$85</h4>
-            </div>
-          </a>
-          <a href="#" class="cart"><i class="bx bx-cart"></i></a>
-        </div>
-        <div class="pro">
-          <a href="Product_4.html">
-            <img src="../img/product/f4.jpg" alt="" />
-            <div class="des">
-              <span>BOSS</span>
-              <h5>Cotton Shirts</h5>
-              <div class="star">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star-half"></i>
-              </div>
-              <h4>$60</h4>
-            </div>
-          </a>
-          <a href="#" class="cart"><i class="bx bx-cart"></i></a>
-        </div>
-        <div class="pro">
-          <a href="Product_5.html">
-            <img src="../img/product/f5.jpg" alt="" />
-            <div class="des">
-              <span>DIOR</span>
-              <h5>Printed Shirts</h5>
-              <div class="star">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star-half"></i>
-              </div>
-              <h4>$75</h4>
-            </div>
-          </a>
-          <a href="" class="cart"><i class="bx bx-cart"></i></a>
-        </div>
-        <div class="pro">
-          <a href="Product_6.html">
-            <img src="../img/product/f6.jpg" alt="" />
-            <div class="des">
-              <span>VERSACE</span>
-              <h5>Linen Shirts</h5>
-              <div class="star">
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star-half"></i>
-              </div>
-              <h4>$90</h4>
-            </div>
-          </a>
-          <a href="" class="cart"><i class="bx bx-cart"></i></a>
-        </div>
+
         <div class="pro">
           <a href="Product_7.html">
-            <img src="../img/product/f7.jpg" alt="" />
+            <img src="../img/product/shirt-1.jpg" alt="" />
             <div class="des">
               <span>VERSACE</span>
               <h5>Linen Trousers</h5>
@@ -223,7 +117,7 @@
         </div>
         <div class="pro">
           <a href="Product_8.html">
-            <img src="../img/product/f8.jpg" alt="" />
+            <img src="../img/product/shirt-2.jpg" alt="" />
             <div class="des">
               <span>PRADA</span>
               <h5>Shirts</h5>
@@ -239,18 +133,8 @@
           </a>
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
-      </div>
-    </section>
-    <section id="banner1">
-      <h4>Repair Services</h4>
-      <h2>UP to <span>70% OFF</span> All Shirts & Accessories</h2>
-    </section>
-    <section class="product">
-      <h2>New Arrivals</h2>
-      <p>Summer Collection New Design</p>
-      <div class="pro-container">
         <div class="pro">
-          <img src="../img/product/n1.jpg" alt="" />
+          <img src="../img/product/product-10.jpg" alt="" />
           <div class="des">
             <span>GUCCI</span>
             <h5>Classic Shirts</h5>
@@ -266,7 +150,7 @@
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
         <div class="pro">
-          <img src="../img/product/n2.jpg" alt="" />
+          <img src="../img/product/shoe-1.jpg" alt="" />
           <div class="des">
             <span>PRADA</span>
             <h5>Classic Shirts</h5>
@@ -282,7 +166,7 @@
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
         <div class="pro">
-          <img src="../img/product/n3.jpg" alt="" />
+          <img src="../img/product/shoe-1_1.jpg" alt="" />
           <div class="des">
             <span>VERSACE</span>
             <h5>White Shirts</h5>
@@ -298,7 +182,7 @@
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
         <div class="pro">
-          <img src="../img/product/n4.jpg" alt="" />
+          <img src="../img/product/shoe-2.jpg" alt="" />
           <div class="des">
             <span>LACOSTE</span>
             <h5>Printed Shirts</h5>
@@ -314,7 +198,7 @@
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
         <div class="pro">
-          <img src="../img/product/n5.jpg" alt="" />
+          <img src="../img/product/shoe-2_1.jpg" alt="" />
           <div class="des">
             <span>BOSS</span>
             <h5>Simple Shirts</h5>
@@ -330,7 +214,7 @@
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
         <div class="pro">
-          <img src="../img/product/n6.jpg" alt="" />
+          <img src="../img/product/shoe-3.jpg" alt="" />
           <div class="des">
             <span>LACOSTE</span>
             <h5>Shorts</h5>
@@ -346,7 +230,7 @@
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
         <div class="pro">
-          <img src="../img/product/n7.jpg" alt="" />
+          <img src="../img/product/shoe-4.jpg" alt="" />
           <div class="des">
             <span>PRADA</span>
             <h5>Linen Shirts</h5>
@@ -362,7 +246,7 @@
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
         <div class="pro">
-          <img src="../img/product/n8.jpg" alt="" />
+          <img src="../img/product/shoe-5.jpg" alt="" />
           <div class="des">
             <span>BOSS</span>
             <h5>Cotton Shirts</h5>
@@ -377,14 +261,98 @@
           </div>
           <a href="" class="cart"><i class="bx bx-cart"></i></a>
         </div>
+        <div class="pro">
+          <img src="../img/product/sports-1.jpg" alt="" />
+          <div class="des">
+            <span>BOSS</span>
+            <h5>Cotton Shirts</h5>
+            <div class="star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h4>$65</h4>
+          </div>
+          <a href="" class="cart"><i class="bx bx-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="../img/product/sports-2.jpg" alt="" />
+          <div class="des">
+            <span>BOSS</span>
+            <h5>Cotton Shirts</h5>
+            <div class="star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h4>$65</h4>
+          </div>
+          <a href="" class="cart"><i class="bx bx-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="../img/product/sports-3.jpg" alt="" />
+          <div class="des">
+            <span>BOSS</span>
+            <h5>Cotton Shirts</h5>
+            <div class="star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h4>$65</h4>
+          </div>
+          <a href="" class="cart"><i class="bx bx-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="../img/product/sports-4.jpg" alt="" />
+          <div class="des">
+            <span>BOSS</span>
+            <h5>Cotton Shirts</h5>
+            <div class="star">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h4>$65</h4>
+          </div>
+          <a href="" class="cart"><i class="bx bx-cart"></i></a>
+        </div>
+        <div class="pro">
+            <a href="Product_1.html">
+              <img src="../img/product/sports-5.jpg" alt="" />
+              <div class="des">
+                <span>LACOSTE</span>
+                <h5>Cartoon Astronaut Shirts</h5>
+                <div class="star">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star-half"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+            </a>
+            <a href="#" class="cart"><i class="bx bx-cart"></i></a>
+        </div>
+
+         
+        </div>  
       </div>
     </section>
-    <section id="banner2">
-      <div class="banner-box">
-        <h4>crazy deals</h4>
-        <h2>buy 1 get 1 free</h2>
-        <h3>The best classic dress in sale</h3>
-      </div>
+    <section id="pagination" class="section-p1">
+      <a href="Shop-page.html">1</a>
+      <a href="Shop-Page-2.html" class="active2">2</a>
+      <a href="Shop2-Page.html">3</a>
+      <a href="Shop3-Page.html"><i class="fal fa-long-arrow-alt-right"></i></a>
     </section>
     <footer>
       <div class="contact">
@@ -411,7 +379,7 @@
         <a href="#">Delivery Information</a>
         <a href="#">Privacy Policy</a>
         <a href="#">Terms & Conditions</a>
-        <a href="contact.html">Contact US</a>
+        <a href="#">Contact US</a>
       </div>
       <div class="account">
         <h4>My Account</h4>
@@ -432,6 +400,5 @@
         <p>&copy; 2023, HTML CSS JAVASCRIPT ECOMMERCE</p>
       </div>
     </footer>
-    <script src="../JAVASCRIPT/Drop-down-menu.js"></script>
   </body>
 </html>
