@@ -34,6 +34,9 @@
 .cart {
   text-align: center;
 }
+#pagination .active2{
+background-color:  #26387e;;
+}
 /* ---------------------------------Blog page --------------------- */
 #blog-header {
   background-image: url(../img/banner/b19.jpg);
