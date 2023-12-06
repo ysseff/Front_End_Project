@@ -20,15 +20,15 @@
     <div class="wrapper">
       <div class="form-box">
         <h2>Login</h2>
-        <div class="input-box">
+        <div class="input-box" id="email-box">
           <span class="icon"><i class="bx bxs-envelope"></i></span>
-          <input type="email" required="required" id="email" />
-          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <label for="email" id="email-label">Email</label>
         </div>
-        <div class="input-box">
+        <div class="input-box" id="pass-box">
           <span class="icon"><i class="bx bxs-lock-alt"></i></span>
-          <input type="password" required="required" id="password" />
-          <label for="password">Password</label>
+          <input type="password" id="password" />
+          <label for="password" id="pass-label">Password</label>
         </div>
         <div class="remember-forgot">
           <label>
@@ -37,13 +37,17 @@
           </label>
           <a href="#">Forgot password ?</a>
         </div>
-        <a href="Home-Page.html"
-          ><button type="submit" class="btn">Login</button></a
-        >
+        <a href="../HTML/Home-Page.html">
+          <button type="submit" id="btn">Login</button>
+      </a>
         <div class="member">
           <p>Don't have an account ? <a href="signup.html">Sign Up</a></p>
         </div>
+        <div id="message">
+          <p id="message-p">hello nigga</p>
+        </div>
       </div>
     </div>
+    <script src="../JAVASCRIPT/login.js"></script>
   </body>
 </html>
