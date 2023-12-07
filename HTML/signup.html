@@ -20,26 +20,32 @@
     <div class="wrapper">
       <div class="form-box">
         <h2>Sign Up</h2>
-        <div class="input-box">
+        <div class="input-box" id="name-box">
           <span class="icon"><i class="bx bxs-user"></i></span>
           <input type="text" required="required" id="name" />
-          <label for="name">Username</label>
+          <label for="name" id="name-label">Username</label>
         </div>
-        <div class="input-box">
+        <div class="input-box" id="email-box">
           <span class="icon"><i class="bx bxs-envelope"></i></span>
           <input type="email" required="required" id="email" />
-          <label for="email">Email</label>
+          <label for="email" id="email-label">Email</label>
         </div>
-        <div class="input-box">
+        <div class="input-box" id="pass-box">
           <span class="icon"><i class="bx bxs-lock-alt"></i></span>
           <input type="password" required="required" id="password" />
-          <label for="password">Password</label>
+          <label for="password" id="pass-label">Password</label>
         </div>
+        <a href="../HTML/login.html">
           <button type="submit" id="btn">Sign Up</button>
+        </a>
         <div class="member">
           <p>Already have an account ? <a href="login.html">Login</a></p>
         </div>
+        <div id="message">
+          <p id="message-p">hello nigga</p>
+        </div>
       </div>
     </div>
+    <script src="../JAVASCRIPT/signup.js"></script>
   </body>
 </html>
