@@ -288,6 +288,7 @@ header {
   background: none;
   border: none;
   padding: none;
+  cursor: pointer;
 }
 .remove-btn i {
   font-size: 16px;
