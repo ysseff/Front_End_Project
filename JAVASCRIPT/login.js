@@ -31,7 +31,7 @@ myBtn.addEventListener("click", function(e) {
             passBox.style.borderBottom = "2px solid red";
             message.style.display = "inline";
             message.innerText = "Password field cannot be left empty.";
-            console.log("password")
+            console.log("password error");
         }
     } else {
         e.preventDefault();
@@ -40,6 +40,6 @@ myBtn.addEventListener("click", function(e) {
         emailBox.style.borderBottom = "2px solid red";
         message.innerText = "Please enter a valid email address.";
         message.style.display = "inline"
-        console.log("error");
+        console.log("email error");
     }
 });
