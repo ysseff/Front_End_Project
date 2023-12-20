@@ -12,7 +12,6 @@ const passLogo = document.getElementById("lock");
 
 myBtn.addEventListener("click", function(e) {
     let domain = email.value.slice(email.value.indexOf("@"));
-    console.log(domain, email.value);
 
     passLabel.style.color = "#2b2b2b";
     passBox.style.borderBottom = "2px solid #2b2b2b";
@@ -26,7 +25,7 @@ myBtn.addEventListener("click", function(e) {
         message.innerText = "";
         message.style.display = "none";
         emailLogo.style.color = "#2b2b2b";
-        if (password.value !== null && password.value !== undefined && password.value !== '') {
+        if (password.value !== null && password.value !== undefined && password.value !== '' && password.value.length >= 8) {
             console.log(email.value, password.value);
         }
         else {
@@ -46,6 +45,5 @@ myBtn.addEventListener("click", function(e) {
         message.innerText = "Please enter a valid email address.";
         message.style.display = "inline";
         emailLogo.style.color = "red";
-        console.log("email error");
     }
 });

@@ -44,7 +44,7 @@ myBtn.addEventListener("click", function(e) {
             message.innerText = "";
             message.style.display = "none";
             emailLogo.style.color = "#2b2b2b";
-            if (password.value !== null && password.value !== undefined && password.value !== '') {
+            if (password.value !== null && password.value !== undefined && password.value !== '' && password.value.length >= 8) {
                 console.log(email.value, password.value);
             }
             else {
