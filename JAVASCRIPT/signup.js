@@ -9,6 +9,9 @@ const passLabel = document.getElementById("pass-label");
 const passBox = document.getElementById("pass-box");
 const nameLabel = document.getElementById("name-label");
 const nameBox = document.getElementById("name-box");
+const emailLogo = document.getElementById("envelope");
+const passLogo = document.getElementById("lock");
+const userLogo = document.getElementById('user-icon');
 
 
 myBtn.addEventListener("click", function(e) {
@@ -20,11 +23,13 @@ myBtn.addEventListener("click", function(e) {
     message.style.display = "none";
     message.innerText = "";
     email.style.color = "#2b2b2b";
+    passLogo.style.color = "#2b2b2b";
 
     emailLabel.style.color = "#2b2b2b";
     emailBox.style.borderBottom = "2px solid #2b2b2b";
     message.innerText = "";
     message.style.display = "none";
+    userLogo.style.color = "#2b2b2b";
 
     if (username.value.length >= 5) {
         username.style.color = "#2b2b2b";
@@ -38,6 +43,7 @@ myBtn.addEventListener("click", function(e) {
             emailBox.style.borderBottom = "2px solid #2b2b2b";
             message.innerText = "";
             message.style.display = "none";
+            emailLogo.style.color = "#2b2b2b";
             if (password.value !== null && password.value !== undefined && password.value !== '') {
                 console.log(email.value, password.value);
             }
@@ -47,6 +53,7 @@ myBtn.addEventListener("click", function(e) {
                 passBox.style.borderBottom = "2px solid red";
                 message.style.display = "inline";
                 message.innerText = "Password field cannot be left empty.";
+                passLogo.style.color = "red";
                 console.log("password error");
             }
         } else {
@@ -55,7 +62,8 @@ myBtn.addEventListener("click", function(e) {
             emailLabel.style.color = "red";
             emailBox.style.borderBottom = "2px solid red";
             message.innerText = "Please enter a valid email address.";
-            message.style.display = "inline"
+            message.style.display = "inline";
+            emailLogo.style.color = "red";
             console.log("email error");
         }
     } else {
@@ -65,6 +73,7 @@ myBtn.addEventListener("click", function(e) {
             nameBox.style.borderBottom = "2px solid red";
             message.innerText = "Username must be at least 5 characters long.";
             message.style.display = "inline";
+            userLogo.style.color = "red";
             console.log("username error");
     }
     

@@ -6,6 +6,8 @@ const emailLabel = document.getElementById("email-label");
 const emailBox = document.getElementById("email-box");
 const passLabel = document.getElementById("pass-label");
 const passBox = document.getElementById("pass-box");
+const emailLogo = document.getElementById("envelope");
+const passLogo = document.getElementById("lock");
 
 
 myBtn.addEventListener("click", function(e) {
@@ -16,12 +18,14 @@ myBtn.addEventListener("click", function(e) {
     passBox.style.borderBottom = "2px solid #2b2b2b";
     message.style.display = "none";
     message.innerText = "";
+    passLogo.style.color = "#2b2b2b";
     if ((domain === "@gmail.com" || domain === "@yahoo.com" || domain === "@hotmail.com" || domain === "@outlook.com")) {
         email.style.color = "#2b2b2b";
         emailLabel.style.color = "#2b2b2b";
         emailBox.style.borderBottom = "2px solid #2b2b2b";
         message.innerText = "";
-        message.style.display = "none"
+        message.style.display = "none";
+        emailLogo.style.color = "#2b2b2b";
         if (password.value !== null && password.value !== undefined && password.value !== '') {
             console.log(email.value, password.value);
         }
@@ -31,6 +35,7 @@ myBtn.addEventListener("click", function(e) {
             passBox.style.borderBottom = "2px solid red";
             message.style.display = "inline";
             message.innerText = "Password field cannot be left empty.";
+            passLogo.style.color = "red";
             console.log("password error");
         }
     } else {
@@ -39,7 +44,8 @@ myBtn.addEventListener("click", function(e) {
         emailLabel.style.color = "red";
         emailBox.style.borderBottom = "2px solid red";
         message.innerText = "Please enter a valid email address.";
-        message.style.display = "inline"
+        message.style.display = "inline";
+        emailLogo.style.color = "red";
         console.log("email error");
     }
 });
