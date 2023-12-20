@@ -9,6 +9,10 @@ const passBox = document.getElementById("pass-box");
 const emailLogo = document.getElementById("envelope");
 const passLogo = document.getElementById("lock");
 
+myBtn.addEventListener("click", function (e) {
+  let domain = email.value.slice(email.value.indexOf("@"));
+  console.log(domain, email.value);
+
 
 myBtn.addEventListener("click", function(e) {
     let domain = email.value.slice(email.value.indexOf("@"));
