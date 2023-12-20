@@ -9,10 +9,6 @@ const passBox = document.getElementById("pass-box");
 const emailLogo = document.getElementById("envelope");
 const passLogo = document.getElementById("lock");
 
-myBtn.addEventListener("click", function (e) {
-  let domain = email.value.slice(email.value.indexOf("@"));
-  console.log(domain, email.value);
-
 
 myBtn.addEventListener("click", function(e) {
     let domain = email.value.slice(email.value.indexOf("@"));
@@ -21,6 +17,8 @@ myBtn.addEventListener("click", function(e) {
     passBox.style.borderBottom = "2px solid #2b2b2b";
     message.style.display = "none";
     message.innerText = "";
+    password.style.color = "#2b2b2b";
+    
     passLogo.style.color = "#2b2b2b";
     if ((domain === "@gmail.com" || domain === "@yahoo.com" || domain === "@hotmail.com" || domain === "@outlook.com")) {
         email.style.color = "#2b2b2b";
@@ -37,6 +35,7 @@ myBtn.addEventListener("click", function(e) {
             passLabel.style.color = "red";
             passBox.style.borderBottom = "2px solid red";
             message.style.display = "inline";
+            password.style.color = "red";
             message.innerText = "Password field cannot be left empty.";
             passLogo.style.color = "red";
             console.log("password error");

@@ -24,6 +24,7 @@ myBtn.addEventListener("click", function(e) {
     message.innerText = "";
     email.style.color = "#2b2b2b";
     passLogo.style.color = "#2b2b2b";
+    password.style.color = "#2b2b2b";
 
     emailLabel.style.color = "#2b2b2b";
     emailBox.style.borderBottom = "2px solid #2b2b2b";
@@ -54,6 +55,7 @@ myBtn.addEventListener("click", function(e) {
                 message.style.display = "inline";
                 message.innerText = "Password field cannot be left empty.";
                 passLogo.style.color = "red";
+                password.style.color = "red";
                 console.log("password error");
             }
         } else {
