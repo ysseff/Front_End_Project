@@ -36,7 +36,7 @@ myBtn.addEventListener("click", function(e) {
             passBox.style.borderBottom = "2px solid red";
             message.style.display = "inline";
             password.style.color = "red";
-            message.innerText = "Password field cannot be left empty.";
+            message.innerText = "Password field cannot be left empty or password cannot less than 8 characters.";
             passLogo.style.color = "red";
             console.log("password error");
         }
